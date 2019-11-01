@@ -1,3 +1,5 @@
+require 'pry'
+
 class School 
   attr_reader :roster, :school_name
 
@@ -27,6 +29,7 @@ class School
   
   def sort
     @roster.transform_values {|name| name.sort}
+    binding.pry
   end
   
 end
