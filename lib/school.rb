@@ -29,7 +29,7 @@ class School
   
   def sort
     @roster.transform_values {|name| name.sort}
-    binding.pry
+    # binding.pry
   end
   
 end
